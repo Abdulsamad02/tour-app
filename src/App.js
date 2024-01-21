@@ -6,7 +6,7 @@ function App() {
     <main>
       <section className='container'>
         <div className="title">
-          <h2>OUR REVIEWS</h2>
+          <h3>OUR REVIEWS</h3>
           <div className="underLine"></div>
         </div>
         <Review/>
@@ -14,5 +14,6 @@ function App() {
     </main>
   );
 }
-
+// i imported the review componet here  in other to get displayed in the app  component which is wraped in a main component which also contain 
+// a class name of container  which is styled.
 export default App;

@@ -1,3 +1,5 @@
+//Here is an arrey of dat which is exported and imported into  review.js and its been distructured in the review component 
+
 const reviews = [
   {
     id: 1,
@@ -9,7 +11,7 @@ const reviews = [
   },
   {
     id: 2,
-    name: "anna johnson",
+    name: "anna musa",
     job: "web designer",
     image:
       "https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883409/person-2_np9x5l.jpg",
@@ -17,7 +19,7 @@ const reviews = [
   },
   {
     id: 3,
-    name: "peter jones",
+    name: "peter SES",
     job: "intern",
     image:
       "https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883417/person-3_ipa0mj.jpg",
@@ -25,7 +27,7 @@ const reviews = [
   },
   {
     id: 4,
-    name: "bill anderson",
+    name: "ABDULSAMAD",
     job: "the boss",
     image:
       "https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883423/person-4_t9nxjt.jpg",

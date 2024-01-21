@@ -9,3 +9,4 @@ root.render(
     <App />
   </React.StrictMode>
 );
+// this is where the app.js is hosted
