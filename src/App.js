@@ -1,19 +1,25 @@
-import React from "react";
-import Review from "./Review";
+import React, { useState } from "react";
+import data from "./data";
+import Question from "./Question";
 import "./App.css"
 function App() {
+  const [questions, setQuestions] = useState(data);
+
   return (
     <main>
-      <section className='container'>
-        <div className="title">
-          <h3>OUR REVIEWS</h3>
-          <div className="underLine"></div>
-        </div>
-        <Review/>
+    <div className="container">
+      <h3>Questions and answers about login</h3>
+      <section className="info">
+        {questions.map((question) => {
+          // return <Question key={question.id} {... question}/>;
+          return <Question key={question.id} {...question}/>
+
+        })}
+        
       </section>
-    </main>
+    </div>
+  </main>
   );
 }
-// i imported the review componet here  in other to get displayed in the app  component which is wraped in a main component which also contain 
-// a class name of container  which is styled.
+
 export default App;
